@@ -47,7 +47,7 @@ afterEvaluate {
                 from components.release
 
                 groupId = 'com.github.GoNftVerse'
-                artifactId = 'GNV-Android-SDK'
+                artifactId = 'GNV'
                 version = '1.0'
             }
         }
