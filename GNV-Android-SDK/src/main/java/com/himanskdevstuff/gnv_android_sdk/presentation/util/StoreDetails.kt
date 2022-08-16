@@ -2,4 +2,5 @@ package com.himanskdevstuff.gnv_android_sdk.presentation.util
 
 data class StoreDetails(
     val storeName : String = "NFTVERSE",
+    val storeId : Int = 1
 )

@@ -21,6 +21,7 @@ class GoNftVerse(val context: Context) {
         val intent = Intent(context, LauncherActivity::class.java)
         intent.putExtra(Constants.CUSTOM_THEME,customTheme)
         intent.putExtra(Constants.STORE_NAME,storeDetails.storeName)
+        intent.putExtra(Constants.STORE_ID, storeDetails.storeId)
         context.startActivity(intent)
     }
 }
